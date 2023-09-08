@@ -1,0 +1,537 @@
+{
+    "categories": [
+      {
+        "name": "Sports",
+        "questions": [
+          {
+            "question": "What is the most popular sport in the world?",
+            "answers": ["Football", "Basketball", "Cricket", "Tennis"],
+            "correctAnswer": "Football"
+          },
+          {
+            "question": "Which country hosted the 2016 Summer Olympics?",
+            "answers": ["USA", "Brazil", "Russia", "China"],
+            "correctAnswer": "Brazil"
+          },
+          {
+            "question": "Who is the all-time leading scorer in NBA history?",
+            "answers": ["Michael Jordan", "Kobe Bryant", "Kareem Abdul-Jabbar", "LeBron James"],
+            "correctAnswer": "Kareem Abdul-Jabbar"
+          },
+          {
+            "question": "In which sport would you perform a slam dunk?",
+            "answers": ["Baseball", "Football", "Basketball", "Tennis"],
+            "correctAnswer": "Basketball"
+          },
+          {
+            "question": "Which city hosted the 2016 Summer Olympics?",
+            "answers": ["Rio de Janeiro", "Tokyo", "London", "Beijing"],
+            "correctAnswer": "Rio de Janeiro"
+          },
+          {
+            "question": "How many players are there on a standard football team?",
+            "answers": ["9", "11", "7", "10"],
+            "correctAnswer": "11"
+          },
+          {
+            "question": "Which country won the most gold medals in the 2020 Tokyo Olympics?",
+            "answers": ["USA", "China", "Japan", "Russia"],
+            "correctAnswer": "USA"
+          },
+          {
+            "question": "Who holds the record for the most home runs in a single MLB season?",
+            "answers": ["Babe Ruth", "Barry Bonds", "Mark McGwire", "Sammy Sosa"],
+            "correctAnswer": "Barry Bonds"
+          },
+          {
+            "question": "Which sport is known as the Sport of Kings?",
+            "answers": ["Cricket", "Football", "Horse Racing", "Tennis"],
+            "correctAnswer": "Horse Racing"
+          },
+          {
+            "question": "Who is considered the greatest swimmer of all time with 28 Olympic medals?",
+            "answers": ["Michael Phelps", "Ian Thorpe", "Ryan Lochte", "Mark Spitz"],
+            "correctAnswer": "Michael Phelps"
+          },
+          {
+            "question": "Which country won the 2014 FIFA World Cup?",
+            "answers": ["Germany", "Brazil", "Spain", "Argentina"],
+            "correctAnswer": "Germany"
+          },
+          {
+            "question": "In which Olympic sport does a competitor perform a vault?",
+            "answers": ["Gymnastics", "Swimming", "Rowing", "Cycling"],
+            "correctAnswer": "Gymnastics"
+          },
+          {
+            "question": "Which tennis player is known as the King of Clay?",
+            "answers": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
+            "correctAnswer": "Rafael Nadal"
+          },
+          {
+            "question": "Who holds the record for the most goals scored in a single NHL season?",
+            "answers": ["Wayne Gretzky", "Mario Lemieux", "Bobby Orr", "Alex Ovechkin"],
+            "correctAnswer": "Wayne Gretzky"
+          },
+          {
+            "question": "Which country is famous for its dominance in the sport of cricket?",
+            "answers": ["Australia", "India", "England", "South Africa"],
+            "correctAnswer": "India"
+          },
+          {
+            "question": "What is the name of the famous horse race that takes place in Kentucky?",
+            "answers": ["Belmont Stakes", "Preakness Stakes", "Kentucky Derby", "Grand National"],
+            "correctAnswer": "Kentucky Derby"
+          },
+          {
+            "question": "Which athlete won nine Olympic gold medals in track and field?",
+            "answers": ["Carl Lewis", "Usain Bolt", "Jesse Owens", "Florence Griffith-Joyner"],
+            "correctAnswer": "Carl Lewis"
+          },
+          {
+            "question": "Which country is known for inventing the sport of rugby?",
+            "answers": ["Australia", "England", "New Zealand", "Ireland"],
+            "correctAnswer": "England"
+          },
+          {
+            "question": "In golf, what is the term for a score of one stroke under par on a hole?",
+            "answers": ["Eagle", "Birdie", "Bogey", "Par"],
+            "correctAnswer": "Birdie"
+          },
+          {
+            "question": "Which boxer is famous for his 'I am the greatest!' quote?",
+            "answers": ["Mike Tyson", "Floyd Mayweather Jr.", "Muhammad Ali", "George Foreman"],
+            "correctAnswer": "Muhammad Ali"
+          }
+
+        ]
+      },
+      {
+        "name": "Biology",
+        "questions": [
+          {
+            "question": "What is the powerhouse of the cell?",
+            "answers": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+            "correctAnswer": "Mitochondria"
+          },
+          {
+            "question": "How many chambers does the human heart have?",
+            "answers": ["Two", "Three", "Four", "Five"],
+            "correctAnswer": "Four"
+          },
+          {
+            "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+            "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+            "correctAnswer": "Carbon Dioxide"
+          },
+          {
+            "question": "What is the largest organ in the human body?",
+            "answers": ["Heart", "Brain", "Skin", "Liver"],
+            "correctAnswer": "Skin"
+          },
+          {
+            "question": "What is the process by which organisms maintain a stable internal environment?",
+            "answers": ["Homeostasis", "Photosynthesis", "Mitosis", "Respiration"],
+            "correctAnswer": "Homeostasis"
+          },
+          {
+            "question": "Which gas is responsible for the green color of plants?",
+            "answers": ["Carbon Dioxide", "Oxygen", "Methane", "Chlorophyll"],
+            "correctAnswer": "Chlorophyll"
+          },
+          {
+            "question": "What is the scientific name for the study of fossils?",
+            "answers": ["Biology", "Paleontology", "Geology", "Archaeology"],
+            "correctAnswer": "Paleontology"
+          },
+          {
+            "question": "Which blood type is considered the universal donor?",
+            "answers": ["A", "B", "AB", "O"],
+            "correctAnswer": "O"
+          },
+          {
+            "question": "What is the smallest unit of life?",
+            "answers": ["Cell", "Molecule", "Atom", "Organism"],
+            "correctAnswer": "Cell"
+          },
+          {
+            "question": "Which gas is produced during the process of respiration?",
+            "answers": ["Carbon Dioxide", "Oxygen", "Hydrogen", "Nitrogen"],
+            "correctAnswer": "Carbon Dioxide"
+          },
+          {
+            "question": "Which organelle is responsible for protein synthesis?",
+            "answers": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+            "correctAnswer": "Ribosome"
+          },
+          {
+            "question": "What is the process by which plants make their own food using sunlight?",
+            "answers": ["Photosynthesis", "Respiration", "Fermentation", "Transpiration"],
+            "correctAnswer": "Photosynthesis"
+          },
+          {
+            "question": "Which gas is produced by plants during photosynthesis?",
+            "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+            "correctAnswer": "Oxygen"
+          },
+          {
+            "question": "What is the main function of the nervous system?",
+            "answers": ["Digestion", "Respiration", "Communication", "Circulation"],
+            "correctAnswer": "Communication"
+          },
+          {
+            "question": "Which part of the human eye controls the amount of light entering the eye?",
+            "answers": ["Cornea", "Lens", "Pupil", "Retina"],
+            "correctAnswer": "Pupil"
+          },
+          {
+            "question": "What is the process by which an organism develops from a fertilized egg?",
+            "answers": ["Fermentation", "Photosynthesis", "Mitosis", "Embryogenesis"],
+            "correctAnswer": "Embryogenesis"
+          },
+          {
+            "question": "What is the largest internal organ in the human body?",
+            "answers": ["Heart", "Lungs", "Liver", "Stomach"],
+            "correctAnswer": "Liver"
+          },
+          {
+            "question": "Which gas do humans inhale during respiration?",
+            "answers": ["Carbon Dioxide", "Oxygen", "Methane", "Nitrogen"],
+            "correctAnswer": "Oxygen"
+          },
+          {
+            "question": "What is the genetic material found in the nucleus of eukaryotic cells?",
+            "answers": ["DNA", "RNA", "Protein", "Lipid"],
+            "correctAnswer": "DNA"
+          },
+          {
+            "question": "What is the primary function of red blood cells in the human body?",
+            "answers": ["Carry oxygen", "Digest food", "Produce antibodies", "Store energy"],
+            "correctAnswer": "Carry oxygen"
+          }
+
+        ]
+      },
+      {
+        "name": "Business",
+        "questions": [
+          {
+            "question": "What does 'ROI' stand for in business?",
+            "answers": ["Return on Investment", "Risk of Inflation", "Revenue over Interest", "Rate of Increase"],
+            "correctAnswer": "Return on Investment"
+          },
+          {
+            "question": "Who is the founder of Amazon.com?",
+            "answers": ["Jeff Bezos", "Elon Musk", "Mark Zuckerberg", "Tim Cook"],
+            "correctAnswer": "Jeff Bezos"
+          },
+          {
+            "question": "What is the term for a legal document that grants an individual the right to operate a franchise business?",
+            "answers": ["Contract", "License", "Agreement", "Permit"],
+            "correctAnswer": "License"
+          },
+          {
+            "question": "Which economic term refers to the total market value of all goods and services produced in a country in a given year?",
+            "answers": ["Gross Domestic Product (GDP)", "Consumer Price Index (CPI)", "Inflation Rate", "Trade Deficit"],
+            "correctAnswer": "Gross Domestic Product (GDP)"
+          },
+          {
+            "question": "What is the term for the amount of money that a business earns in excess of its expenses?",
+            "answers": ["Loss", "Debt", "Profit", "Revenue"],
+            "correctAnswer": "Profit"
+          },
+          {
+            "question": "Which social media platform was founded by Mark Zuckerberg and is known for connecting people worldwide?",
+            "answers": ["Twitter", "LinkedIn", "Facebook", "Instagram"],
+            "correctAnswer": "Facebook"
+          },
+          {
+            "question": "What is the process of planning, organizing, and controlling resources to achieve specific goals in an efficient and effective manner?",
+            "answers": ["Marketing", "Sales", "Management", "Production"],
+            "correctAnswer": "Management"
+          },
+          {
+            "question": "Which currency is used in Japan?",
+            "answers": ["Euro", "Dollar", "Pound", "Yen"],
+            "correctAnswer": "Yen"
+          },
+          {
+            "question": "What is the term for a business strategy that involves a company expanding its operations by entering new industry segments that are different from its core business?",
+            "answers": ["Diversification", "Monopoly", "Vertical Integration", "Market Penetration"],
+            "correctAnswer": "Diversification"
+          },
+          {
+            "question": "Which company's search engine is the most widely used globally?",
+            "answers": ["Bing", "Yahoo", "Google", "DuckDuckGo"],
+            "correctAnswer": "Google"
+          },
+          {
+            "question": "Which company is known for its search engine advertising platform called AdWords?",
+            "answers": ["Yahoo", "Microsoft", "Apple", "Google"],
+            "correctAnswer": "Google"
+          },
+          {
+            "question": "In finance, what term refers to the measure of how much an investment has gained or lost over a certain period?",
+            "answers": ["Profit Margin", "Dividend Yield", "Rate of Return", "Asset Allocation"],
+            "correctAnswer": "Rate of Return"
+          },
+          {
+            "question": "What type of business structure combines the features of a partnership and a corporation?",
+            "answers": ["Sole Proprietorship", "Limited Liability Company (LLC)", "Corporation", "Cooperative"],
+            "correctAnswer": "Limited Liability Company (LLC)"
+          },
+          {
+            "question": "Which social media platform is primarily used for professional networking?",
+            "answers": ["Facebook", "Twitter", "LinkedIn", "Instagram"],
+            "correctAnswer": "LinkedIn"
+          },
+          {
+            "question": "In marketing, what does the '4Ps' stand for?",
+            "answers": ["Product, Price, Promotion, Place", "Profit, People, Process, Performance", "Plan, Produce, Publish, Promote", "Pricing, Production, Packaging, Positioning"],
+            "correctAnswer": "Product, Price, Promotion, Place"
+          },
+          {
+            "question": "What is the term for a situation where a single company dominates an entire industry?",
+            "answers": ["Oligopoly", "Monopoly", "Duopoly", "Cartel"],
+            "correctAnswer": "Monopoly"
+          },
+          {
+            "question": "Which financial market is known for trading stocks of publicly-held companies?",
+            "answers": ["Commodity Market", "Foreign Exchange Market", "Stock Market", "Bond Market"],
+            "correctAnswer": "Stock Market"
+          },
+          {
+            "question": "What is the term for the process of creating and distributing valuable content to attract and engage a target audience?",
+            "answers": ["Sales", "Marketing", "Advertising", "Content Marketing"],
+            "correctAnswer": "Content Marketing"
+          },
+          {
+            "question": "What is the primary role of a venture capitalist?",
+            "answers": ["Create business plans", "Lend money to startups", "Manage mergers and acquisitions", "Invest in startups"],
+            "correctAnswer": "Invest in startups"
+          },
+          {
+            "question": "What does the term 'SWOT' stand for in business analysis?",
+            "answers": [
+              "Strengths, Weaknesses, Opportunities, Threats",
+              "Sales, Workflow, Operations, Testing",
+              "Strategy, Workforce, Objectives, Technology",
+              "Savings, Wage, Office, Taxes"
+            ],
+            "correctAnswer": "Strengths, Weaknesses, Opportunities, Threats"
+          }
+        ]
+      },
+      {
+        "name": "Music",
+        "questions": [
+          {
+            "question": "Which Beatles album is known as the 'White Album'?",
+            "answers": ["Abbey Road", "Let It Be", "Sgt. Pepper's Lonely Hearts Club Band", "The Beatles"],
+            "correctAnswer": "The Beatles"
+          },
+          {
+            "question": "Who is the 'King of Pop'?",
+            "answers": ["Elvis Presley", "Michael Jackson", "Prince", "James Brown"],
+            "correctAnswer": "Michael Jackson"
+          },
+          {
+            "question": "Which band released the album 'The Dark Side of the Moon'?",
+            "answers": ["The Beatles", "Led Zeppelin", "Pink Floyd", "The Rolling Stones"],
+            "correctAnswer": "Pink Floyd"
+          },
+          {
+            "question": "Who is the lead vocalist of the rock band Queen?",
+            "answers": ["Freddie Mercury", "Mick Jagger", "Elton John", "David Bowie"],
+            "correctAnswer": "Freddie Mercury"
+          },
+          {
+            "question": "Which music genre originated in Jamaica and features a distinctive offbeat rhythm?",
+            "answers": ["Salsa", "Reggae", "Hip-Hop", "Country"],
+            "correctAnswer": "Reggae"
+          },
+          {
+            "question": "What is the term for a group of musicians who play together, typically consisting of two violins, a viola, and a cello?",
+            "answers": ["Orchestra", "Choir", "Band", "Ensemble"],
+            "correctAnswer": "String Quartet"
+          },
+          {
+            "question": "Which famous composer is known for his 'Moonlight Sonata' and 'Fur Elise' compositions?",
+            "answers": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Ludwig van Beethoven", "Franz Schubert"],
+            "correctAnswer": "Ludwig van Beethoven"
+          },
+          {
+            "question": "What is the national instrument of Scotland?",
+            "answers": ["Bagpipes", "Violin", "Harp", "Accordion"],
+            "correctAnswer": "Bagpipes"
+          },
+          {
+            "question": "Who released the album 'Thriller,' which is one of the best-selling albums of all time?",
+            "answers": ["Madonna", "Prince", "Whitney Houston", "Michael Jackson"],
+            "correctAnswer": "Michael Jackson"
+          },
+          {
+            "question": "What is the name of the lead guitarist of the rock band Queen?",
+            "answers": ["Brian May", "John Deacon", "Roger Taylor", "David Gilmour"],
+            "correctAnswer": "Brian May"
+          },
+          {
+            "question": "Which legendary guitarist is known for his iconic performance of 'The Star-Spangled Banner' at Woodstock in 1969?",
+            "answers": ["Jimi Hendrix", "Eric Clapton", "Jimmy Page", "Stevie Ray Vaughan"],
+            "correctAnswer": "Jimi Hendrix"
+          },
+          {
+            "question": "Which famous British band released the album 'Sgt. Pepper's Lonely Hearts Club Band'?",
+            "answers": ["The Rolling Stones", "The Who", "The Beatles", "Led Zeppelin"],
+            "correctAnswer": "The Beatles"
+          },
+          {
+            "question": "Who is known for the hit song 'Purple Haze'?",
+            "answers": ["Bob Dylan", "Jimi Hendrix", "Janis Joplin", "The Doors"],
+            "correctAnswer": "Jimi Hendrix"
+          },
+          {
+            "question": "Which female artist's debut album is titled '19' and features the song 'Chasing Pavements'?",
+            "answers": ["Adele", "Taylor Swift", "Beyoncé", "Rihanna"],
+            "correctAnswer": "Adele"
+          },
+          {
+            "question": "What is the term for a composition for solo instrument, typically featuring virtuosic and expressive performance?",
+            "answers": ["Symphony", "Concerto", "Sonata", "Overture"],
+            "correctAnswer": "Concerto"
+          },
+          {
+            "question": "Who is known as the 'Queen of Pop'?",
+            "answers": ["Madonna", "Whitney Houston", "Janet Jackson", "Britney Spears"],
+            "correctAnswer": "Madonna"
+          },
+          {
+            "question": "What is the name of the famous music festival that took place in 1969 and featured performances by Jimi Hendrix, The Who, and Janis Joplin?",
+            "answers": ["Coachella", "Woodstock", "Lollapalooza", "Bonnaroo"],
+            "correctAnswer": "Woodstock"
+          },
+          {
+            "question": "Who wrote the famous opera 'The Magic Flute'?",
+            "answers": ["Wolfgang Amadeus Mozart", "Giuseppe Verdi", "Ludwig van Beethoven", "Richard Wagner"],
+            "correctAnswer": "Wolfgang Amadeus Mozart"
+          },
+          {
+            "question": "What is the term for a musical composition intended to be performed by an orchestra?",
+            "answers": ["Opera", "Symphony", "Sonata", "Concerto"],
+            "correctAnswer": "Symphony"
+          },
+          {
+            "question": "Who is the lead vocalist of the rock band U2?",
+            "answers": ["Bono", "The Edge", "Larry Mullen Jr.", "Adam Clayton"],
+            "correctAnswer": "Bono"
+          }
+        ]
+      },
+      {
+        "name": "Gaming",
+        "questions": [
+          {
+            "question": "Which video game franchise features a plumber named Mario?",
+            "answers": ["Zelda", "Metroid", "Mario", "Donkey Kong"],
+            "correctAnswer": "Mario"
+          },
+
+          {
+            "question": "What is the best-selling video game of all time?",
+            "answers": ["Minecraft", "Tetris", "Grand Theft Auto V", "Super Mario Bros."],
+            "correctAnswer": "Minecraft"
+          },
+          {
+            "question": "Which popular video game features a battle royale mode called 'Warzone'?",
+            "answers": ["Fortnite", "Apex Legends", "Call of Duty: Warzone", "PlayerUnknown's Battlegrounds (PUBG)"],
+            "correctAnswer": "Call of Duty: Warzone"
+          },
+          {
+            "question": "In the game 'Minecraft,' what material is used to craft tools and weapons?",
+            "answers": ["Dirt", "Gravel", "Stone", "Emerald"],
+            "correctAnswer": "Stone"
+          },
+          {
+            "question": "Which iconic video game character is known for collecting rings and battling the evil Dr. Robotnik?",
+            "answers": ["Pac-Man", "Donkey Kong", "Sonic the Hedgehog", "Mario"],
+            "correctAnswer": "Sonic the Hedgehog"
+          },
+          {
+            "question": "What is the name of the fantasy world in 'The Elder Scrolls V: Skyrim'?",
+            "answers": ["Middle-earth", "Tamriel", "Azeroth", "Westeros"],
+            "correctAnswer": "Tamriel"
+          },
+          {
+            "question": "Which video game series follows the adventures of Geralt of Rivia, a monster hunter?",
+            "answers": ["Dark Souls", "Final Fantasy", "The Witcher", "Dragon Age"],
+            "correctAnswer": "The Witcher"
+          },
+          {
+            "question": "What is the main objective in the game 'Among Us'?",
+            "answers": ["Survive on an island", "Build structures", "Complete tasks on a spaceship", "Solve murder mysteries"],
+            "correctAnswer": "Complete tasks on a spaceship"
+          },
+          {
+            "question": "Which video game console was released by Sony in 1994 and revolutionized the gaming industry?",
+            "answers": ["Sega Genesis", "Nintendo 64", "PlayStation", "Xbox"],
+            "correctAnswer": "PlayStation"
+          },
+          {
+            "question": "Which popular game series features a battle royale mode known as 'Blackout'?",
+            "answers": ["Halo", "Battlefield", "Call of Duty", "Counter-Strike"],
+            "correctAnswer": "Call of Duty"
+          },
+          {
+            "question": "In 'The Legend of Zelda' series, what is the name of the main character who often wears a green tunic and hat?",
+            "answers": ["Link", "Zelda", "Ganon", "Epona"],
+            "correctAnswer": "Link"
+          },
+          {
+            "question": "What is the name of the survival horror video game where players attempt to escape from a zombie-infested Raccoon City?",
+            "answers": ["Silent Hill", "Resident Evil", "Dead Space", "Outlast"],
+            "correctAnswer": "Resident Evil"
+          },
+          {
+            "question": "Which game series features the protagonist, Nathan Drake, on treasure-hunting adventures?",
+            "answers": ["Tomb Raider", "Assassin's Creed", "Uncharted", "Metal Gear Solid"],
+            "correctAnswer": "Uncharted"
+          },
+          {
+            "question": "What popular game mode in 'Fortnite' features a last-player-standing battle?",
+            "answers": ["Creative Mode", "Save the World", "Battle Royale", "Sandbox Mode"],
+            "correctAnswer": "Battle Royale"
+          },
+          {
+            "question": "In 'Pokémon,' what is the primary objective of the game?",
+            "answers": ["Battling friends", "Completing the Pokédex", "Building a house", "Cooking meals"],
+            "correctAnswer": "Completing the Pokédex"
+          },
+          {
+            "question": "Which racing game franchise features a series of high-speed arcade-style games known for their crazy stunts and crashes?",
+            "answers": ["Gran Turismo", "Need for Speed", "Forza Motorsport", "Burnout"],
+            "correctAnswer": "Burnout"
+          },
+          {
+            "question": "In 'The Sims' video game series, what is the primary goal for players?",
+            "answers": ["Exploring dungeons", "Surviving a zombie apocalypse", "Building cities", "Creating and managing virtual people"],
+            "correctAnswer": "Creating and managing virtual people"
+          },
+          {
+            "question": "Which iconic video game franchise features a plumber named Mario and his adventures in the Mushroom Kingdom?",
+            "answers": ["Sonic the Hedgehog", "Super Mario", "Donkey Kong", "Mega Man"],
+            "correctAnswer": "Super Mario"
+          },
+          {
+            "question": "What is the name of the most famous block-building game that allows players to create and explore their own virtual worlds?",
+            "answers": ["Minecraft", "Roblox", "Terraria", "The Forest"],
+            "correctAnswer": "Minecraft"
+          },
+          {
+            "question": "In the game 'Overwatch,' what is the name of the character who is a skilled archer and assassin?",
+            "answers": ["Tracer", "Widowmaker", "Hanzo", "Reaper"],
+            "correctAnswer": "Hanzo"
+          }
+        ]
+      }
+    ]
+  }
