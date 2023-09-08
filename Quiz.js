@@ -69,7 +69,7 @@ function startGame(){
   score = 0;
 
   console.log("Welcome to the quiz, please choose the category (by typing the category number) Sports - 0, Biology - 1, Business - 2, Music - 3, Gaming - 4");
-  const categoryChoice = prompt("Enter the category number:");
+  let categoryChoice = prompt("Enter the category number:");
 
   switch (categoryChoice) {
     case "0":
@@ -89,6 +89,9 @@ function startGame(){
       break;
     default:
       console.log("Invalid category choice. Please enter a valid category number.");
+      while(isNaN(categoryChoice) || categoryChoice<0 || categoryChoice>4){
+        categoryChoice = prompt("Enter the category number:");
+        }
       break;
   }
   logQuestion(categoryChoice);
