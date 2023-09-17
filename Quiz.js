@@ -21,13 +21,26 @@ async function logQuestion(categoryIndex) {
   try {
     const quizData = await fetchQuizQuestions();
     const category = quizData.categories[categoryIndex];
+    const availableQuestions = category.questions.length;
+
+    if (availableQuestions < 10) {
+      console.log(`There are only ${availableQuestions} questions available in this category.`);
+      console.log(`You will be prompted to answer all of them.`);
+    } else {
+      console.log(`There are ${availableQuestions} questions available in this category.`);
+      console.log(`You will be prompted to answer 10 of them.`);
+    }
 
     for (let i = 1; i <= 10; i++) {
       let randomQuestion;
 
-      do {
-        randomQuestion = Math.floor(Math.random() * category.questions.length);
-      } while (usedQuestion.includes(randomQuestion));
+      if (availableQuestions < 10) {
+        randomQuestion = i - 1; // Prompt all available questions
+      } else {
+        do {
+          randomQuestion = Math.floor(Math.random() * availableQuestions);
+        } while (usedQuestion.includes(randomQuestion));
+      }
 
       const question = category.questions[randomQuestion];
       usedQuestion.push(randomQuestion);
@@ -35,7 +48,7 @@ async function logQuestion(categoryIndex) {
       console.log(`Question ${i}/10:`, question.question);
       console.log('Answers:', question.answers);
 
-      checkAnswer(question,i);
+      checkAnswer(question, i);
     }
 
     console.log(`Thank you for playing the quiz, your final score is: ${score}/10!`);
@@ -69,19 +82,19 @@ async function startGame() {
 
   switch (categoryChoice) {
     case '0':
-      console.log(`You have chosen category SPORTS, there will be 10 questions ahead of you from this category, please type the number associated with your answer (0 to 3).`);
+      console.log(`You have chosen category SPORTS, to answer the question please type the number associated with your answer (0 to 3).`);
       break;
       case '1':
-      console.log(`You have chosen category BIOLOGY, there will be 10 questions ahead of you from this category, please type the number associated with your answer (0 to 3).`);
+      console.log(`You have chosen category BIOLOGY, to answer the question please type the number associated with your answer (0 to 3).`);
       break;
     case '2':
-      console.log(`You have chosen category BUSINESS, there will be 10 questions ahead of you from this category, please type the number associated with your answer (0 to 3).`);
+      console.log(`You have chosen category BUSINESS, to answer the question please type the number associated with your answer (0 to 3).`);
       break;
     case '3':
-      console.log(`You have chosen category MUSIC, there will be 10 questions ahead of you from this category, please type the number associated with your answer (0 to 3).`);
+      console.log(`You have chosen category MUSIC, to answer the question please type the number associated with your answer (0 to 3).`);
       break;
     case '4':
-      console.log(`You have chosen category GAMING, there will be 10 questions ahead of you from this category, please type the number associated with your answer (0 to 3).`);
+      console.log(`You have chosen category GAMING, to answer the question please type the number associated with your answer (0 to 3).`);
       break;
     default:
       console.log('Invalid category choice. Please enter a valid category number (0 to 4).');
